@@ -1,3 +1,11 @@
+hello (2.10-2ubuntu3) focal; urgency=medium
+
+  * Add testing.sh for dpkg search test
+  * Add install to pack testing.sh into .deb
+  * Add postinst to echo info during install 
+
+ -- pinsheng <pinsheng@pinsheng-desktop>  Wed, 12 Jan 2022 21:00:40 +0800
+
 hello (2.10-2ubuntu2) eoan; urgency=medium
 
   * Handle exit code 77 for skipped autopkgtests.
